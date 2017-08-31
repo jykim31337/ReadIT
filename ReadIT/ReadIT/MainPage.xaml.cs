@@ -28,5 +28,10 @@ namespace ReadIT
         {
 
         }
+
+        private void btnManual_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -9,6 +9,7 @@
             <RowDefinition />
             <RowDefinition />
             <RowDefinition />
+            <RowDefinition />
         </Grid.RowDefinitions>
         <Button
             x:Name="btnStart"
@@ -27,5 +28,11 @@
             Margin="10"
             Clicked="btnEditData_Clicked"
             Text="Edit Data" />
+        <Button
+            x:Name="btnManual"
+            Grid.Row="3"
+            Margin="10"
+            Text="How To Use?"
+            Clicked="btnManual_Clicked"/>
     </Grid>
 </ContentPage>
